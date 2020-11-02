@@ -4,7 +4,7 @@ def position_taken?(board,index)
     false
   elsif 
     false
-  elsif 
+  elsif
     false
   else
     true
