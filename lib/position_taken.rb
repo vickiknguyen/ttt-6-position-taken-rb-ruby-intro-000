@@ -7,7 +7,6 @@ def position_taken?(board,index)
   if (board[index.to_i] == " " || board[index.to_i] == "" || board[index.to_i] == nil)
     return false
   else
-    expect (board[index == "X"] || board[index == "O"])
-    return true
+    true
   end
 end
