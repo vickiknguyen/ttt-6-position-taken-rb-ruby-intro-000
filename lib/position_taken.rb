@@ -4,7 +4,7 @@ def index
 
 def position_taken?(board,index)
   index.to_i
-  if (board[index.- 1] == " " || board[index.- 1] == "" || board[index.- 1] == nil)
+  if (board[index] == " " || board[index] == "" || board[index] == nil)
     return false
   else
     expect (board[index == "X"] || board[index == "O"])
